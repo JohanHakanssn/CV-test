@@ -1,0 +1,51 @@
+body {
+  /* background */
+  background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+  background-size: cover;
+  background-position: bottom;
+  overflow: hidden; /* Hide scrollbars */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  justify-content: center;
+}
+
+.h1 {
+  display: flex;
+  justify-content: center;
+  margin: 10% auto 0;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 7% auto 0;
+  min-width: 98%;
+  flex-grow: 1;
+}
+
+.paragraph__container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 100ch;
+}
+
+.p {
+  line-height: 1.5;
+  padding: 1rem;
+  font-size: 1.2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.redux__container {
+  display: flex;
+  display: none;
+}

@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 211, 211);
+  box-sizing: border-box;
+}
+
+.aboutme__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 99vh;
+  width: 99vw;
+}
+
+.profilpic {
+  border: solid black 2px;
+  max-height: 20rem;
+  border-radius: 15px;
+}
+
+.paragraph {
+  display: flex;
+  max-width: 80ch;
+  font-size: 1.2rem;
+  margin-left: 1rem;
+  box-sizing: border-box;
+}

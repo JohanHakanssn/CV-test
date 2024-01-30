@@ -1,0 +1,21 @@
+.grid__container {
+  background-image: url("https://www.ekreative.com/wp-content/uploads/2021/03/pankaj-patel-_SgRNwAVNKw-unsplash.jpg");
+  background-size: cover;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 25rem);
+  grid-template-columns: repeat(2, 25rem);
+  gap: 2rem;
+  padding: 10%;
+  justify-content: end;
+}
+
+.card {
+  padding: 5rem;
+  text-align: center;
+  border: solid black 2px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}

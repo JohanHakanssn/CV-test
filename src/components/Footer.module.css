@@ -1,0 +1,39 @@
+*,
+/*För att få alla element att ha border-box*/
+*::before *::backdrop {
+  box-sizing: border-box;
+  /*Använd nästan alltid*/
+}
+
+* {
+  /*Ta bort ALL margin och padding i början från alla element*/
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(5rem);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+.footer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  bottom: 0;
+  background-color: #333;
+  padding: 1rem;
+  box-sizing: border-box;
+  max-height: 8%;
+  min-height: 8%;
+  animation: slideUp 1.5s ease-out;
+  width: 100%;
+  box-shadow: 0px 0px 5px 3px black;
+}
