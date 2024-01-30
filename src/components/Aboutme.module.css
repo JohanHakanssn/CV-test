@@ -1,7 +1,6 @@
 .container {
   display: flex;
   justify-content: center;
-  background-color: rgb(211, 211, 211);
   box-sizing: border-box;
 }
 
@@ -15,7 +14,6 @@
 }
 
 .profilpic {
-  border: solid black 2px;
   max-height: 20rem;
   border-radius: 15px;
 }
