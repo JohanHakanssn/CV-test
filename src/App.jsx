@@ -13,7 +13,7 @@ function App() {
       <div>
         <PageNav />
         <Routes>
-          <Route path="vite-react/" element={<Homepage />} />
+          <Route path="/" element={<Homepage />} />
           <Route path="aboutme" element={<Aboutme />} />
           <Route path="skills" element={<Skills />} />
           <Route path="experience" element={<Experience />} />
