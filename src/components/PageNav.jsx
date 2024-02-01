@@ -9,7 +9,7 @@ function PageNav() {
       </div>
       <ul className={styles.ul}>
         <li className={styles.li}>
-          <NavLink to="/aboutme">Om Mig</NavLink>
+          <NavLink to="/aboutme">Om mig</NavLink>
         </li>
         <li className={styles.li}>
           <NavLink to="/skills">Det här kan jag</NavLink>
