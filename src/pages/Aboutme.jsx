@@ -10,13 +10,7 @@ function Aboutme() {
           alt="Profilpic"
         />
 
-        <p
-          className={styles.paragraph}
-          style={{
-            backgroundColor: "rgba(255, 255, 255, 0.4)",
-            padding: "1rem",
-          }}
-        >
+        <p className={styles.paragraph}>
           Hej, jag heter Johan och jag är 27 år gammal, och just nu är jag på en
           spännande resa mot att bli en front-end utvecklare. Min passion för
           teknik och design har lett mig till en värld där kreativitet möter

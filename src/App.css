@@ -32,3 +32,18 @@ p {
   line-height: 1.5;
   padding: 1rem;
 }
+
+a {
+  color: white;
+}
+
+button {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: white;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}

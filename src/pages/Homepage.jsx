@@ -2,15 +2,24 @@ import styles from "../components.css/Homepage.module.css";
 import ViewCounter from "../components/ViewCounter";
 import { increment, decrement } from "../actions";
 import { useDispatch } from "react-redux";
+import { useEffect, useState } from "react";
 
 function Homepage() {
+  const [isVisible, setIsVisible] = useState(false);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsVisible(true);
+    }, 100);
+    return () => clearTimeout(timer);
+  }, []);
+
   const dispatch = useDispatch();
+
   return (
-    <div className={styles.container}>
+    <section
+      className={`${styles.container} ${isVisible ? styles.visible : ""}`}
+    >
       <h1 className={styles.h1}>Välkommen</h1>
-
-      {/* ----------------- */}
-
       <div className={styles.article}>
         <article className={styles.paragraph__container}>
           <p className={styles.p}>
@@ -25,12 +34,12 @@ function Homepage() {
         <div className={styles.redux__container}>
           <button onClick={() => dispatch(increment(1))}>Klicka här</button>
           <button onClick={() => dispatch(decrement(1))}>
-            Klicka också här
+            Klicka här också
           </button>
           <ViewCounter />
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
