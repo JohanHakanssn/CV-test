@@ -6,6 +6,7 @@ import Experience from "./pages/Experience";
 import Contact from "./pages/Contact";
 import Footer from "./components/Footer";
 import PageNav from "./components/PageNav";
+import "./App.css";
 
 function App() {
   return (
