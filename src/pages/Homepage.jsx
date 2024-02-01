@@ -1,4 +1,4 @@
-import styles from "../components/Homepage.module.css";
+import styles from "../components.css/Homepage.module.css";
 import ViewCounter from "../components/ViewCounter";
 import { increment, decrement } from "../actions";
 import { useDispatch } from "react-redux";

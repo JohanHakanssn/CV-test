@@ -1,4 +1,4 @@
-import styles from "../components/Aboutme.module.css";
+import styles from "../components.css/Aboutme.module.css";
 
 function Aboutme() {
   return (

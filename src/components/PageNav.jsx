@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import styles from "./PageNav.module.css";
+import styles from "../components.css/PageNav.module.css";
 
 function PageNav() {
   return (
     <div className={styles.navbar}>
       <div className={styles.start}>
-        <NavLink to="/">Start</NavLink>
+        <NavLink to="/vite-react/">Start</NavLink>
       </div>
       <ul className={styles.ul}>
         <li className={styles.li}>

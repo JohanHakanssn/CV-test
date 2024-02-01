@@ -1,35 +1,23 @@
-import styles from "./CardSkills.module.css";
+import styles from "../components.css/CardSkills.module.css";
 
 function Skills(props) {
   return (
-    <div className={styles.grid__container}>
-      <article className={styles.grid}>
-        <span
-          className={styles.card}
-          style={{ backgroundColor: "rgba(255, 0, 0, 0.9)" }}
-        >
-          {props.skill1}
-        </span>
-        <span
-          className={styles.card}
-          style={{ backgroundColor: "rgba(38, 76, 228, 0.8)" }}
-        >
-          {props.skill2}
-        </span>
-        <span
-          className={styles.card}
-          style={{ backgroundColor: "rgba(247, 222, 30, 0.95)" }}
-        >
-          {props.skill3}
-        </span>
-        <span
-          className={styles.card}
-          style={{ backgroundColor: "rgba(97, 220, 251, 0.89)" }}
-        >
-          {props.skill4}
-        </span>
-      </article>
-    </div>
+    <section className={styles.card__container}>
+      <div className={styles.card} style={{ backgroundColor: "red" }}>
+        {props.skill1}
+      </div>
+
+      <div className={styles.card} style={{ backgroundColor: "blue" }}>
+        {props.skill2}
+      </div>
+
+      <div className={styles.card} style={{ backgroundColor: "orange" }}>
+        {props.skill3}
+      </div>
+      <div className={styles.card} style={{ backgroundColor: "lightblue" }}>
+        {props.skill4}
+      </div>
+    </section>
   );
 }
 export default Skills;

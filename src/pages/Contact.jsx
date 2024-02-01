@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "../components/Contact.module.css";
+import styles from "../components.css/Contact.module.css";
 
 function Contact() {
   const [isModalHidden, setIsModalHidden] = useState(true);
