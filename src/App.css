@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300;400;700&display=swap");
+
+*,
+/*För att få alla element att ha border-box*/
+*::before *::backdrop {
+  box-sizing: border-box;
+  /*Använd nästan alltid*/
+}
+
+* {
+  /*Ta bort ALL margin och padding i början från alla element*/
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Bebas", sans-serif;
+  height: 100vh;
+}
+
+p {
+  font-size: 5rem;
+}

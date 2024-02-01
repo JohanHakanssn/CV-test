@@ -1,7 +1,6 @@
 .container {
   display: flex;
   justify-content: center;
-  box-sizing: border-box;
 }
 
 .aboutme__container {
@@ -14,8 +13,9 @@
 }
 
 .profilpic {
-  max-height: 20rem;
-  border-radius: 15px;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
 }
 
 .paragraph {
