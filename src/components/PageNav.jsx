@@ -5,7 +5,7 @@ function PageNav() {
   return (
     <div className={styles.navbar}>
       <div className={styles.start}>
-        <NavLink to="/">Start</NavLink>
+        <NavLink to="/vite-react/">Start</NavLink>
       </div>
       <ul className={styles.ul}>
         <li className={styles.li}>
