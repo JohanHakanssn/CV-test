@@ -1,4 +1,4 @@
-import styles from "./CardSkills.module.css";
+import styles from "../components.css/CardSkills.module.css";
 
 function Skills(props) {
   return (

@@ -10,7 +10,7 @@
 .navbar {
   display: flex;
   position: absolute;
-  background-color: #333;
+  background-color: #000000;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
@@ -53,7 +53,6 @@
 
 .navbar a {
   text-decoration: none;
-  color: whitesmoke;
   padding: 0.5rem;
   font-size: 1.2rem;
 }

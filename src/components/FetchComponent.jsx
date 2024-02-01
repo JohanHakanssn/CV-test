@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react";
-import styles from "./Experience.module.css";
+import styles from "../components.css/Experience.module.css";
 
 export function FetchComponent() {
   const URL = "https://api.github.com/users/JohanHakanssn/repos";

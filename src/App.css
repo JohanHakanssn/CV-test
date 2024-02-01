@@ -17,15 +17,18 @@
 body {
   font-family: "Bebas", sans-serif;
   height: 100vh;
-  background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg");
+  /* background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg"); */
   background-size: cover;
   background-position: bottom;
   overflow: hidden; /* Hide scrollbars */
 }
 
+h1 {
+  font-size: 1rem;
+}
+
 p {
   font-size: 1.2rem;
-  background-color: rgba(255, 255, 255, 0.4);
   line-height: 1.5;
   padding: 1rem;
 }
