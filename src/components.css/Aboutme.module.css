@@ -1,27 +1,22 @@
-.container {
+.article {
   display: flex;
-  justify-content: center;
+  justify-content: end;
+  height: 99vh;
+  align-items: center;
+  width: 90vw;
 }
 
-.aboutme__container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  height: 99vh;
-  width: 99vw;
+.aboutMe__section {
+  width: 35%;
+  height: 55%;
+}
+
+.p {
+  height: 40%;
 }
 
 .profilpic {
   width: 20rem;
   height: 20rem;
   border-radius: 50%;
-}
-
-.paragraph {
-  display: flex;
-  max-width: 80ch;
-  font-size: 1.2rem;
-  margin-left: 1rem;
-  box-sizing: border-box;
 }
