@@ -15,6 +15,8 @@ Länkar till min Github där jag har mina projekt
 --Kontakta mig--
 Kontaktinformation till mig.
 
+För att köra programemte installera vite.js och skriv sen in "npm run dev" i konsollen.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
