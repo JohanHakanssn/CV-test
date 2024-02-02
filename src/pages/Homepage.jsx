@@ -24,11 +24,11 @@ function Homepage() {
         <article className={styles.paragraph__container}>
           <p className={styles.p}>
             Hej, och <span style={{ fontWeight: "bold" }}>välkommen</span> till
-            mitt CV! Mitt namn är Johan Håkansson, en 27-årig blivande front-end
-            utvecklare med ett brinnande intresse för webbdesign och
-            användarupplevelse. På den här webbplatsen får du en inblick i min
-            resa inom front-end utveckling, där jag för närvarande fördjupar mig
-            i studier och praktiska projekt.
+            min persoliga hemsida! Mitt namn är Johan Håkansson, en 27-årig
+            blivande front-end utvecklare med ett brinnande intresse för
+            webbdesign och användarupplevelse. På den här webbplatsen får du en
+            inblick i min resa inom front-end utveckling, där jag för närvarande
+            fördjupar mig i studier och praktiska projekt.
           </p>
         </article>
         <div className={styles.redux__container}>
