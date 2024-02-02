@@ -15,7 +15,7 @@ function PageNav() {
           <NavLink to="/skills">Det här kan jag</NavLink>
         </li>
         <li className={styles.li}>
-          <NavLink to="/experience">Erfarenhet</NavLink>
+          <NavLink to="/projekt">Projekt</NavLink>
         </li>
         <li className={styles.li}>
           <NavLink to="/contact">Kontakta mig</NavLink>

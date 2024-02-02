@@ -1,5 +1,6 @@
 import styles from "../components.css/CardSkills.module.css";
 
+//Skill1 = html, skill2 = css, skill3 = javascript, skill4 = react.
 function Skills(props) {
   return (
     <section className={styles.card__container}>

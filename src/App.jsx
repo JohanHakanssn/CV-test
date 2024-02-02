@@ -13,12 +13,12 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <PageNav />-
+        <PageNav />
         <Routes>
           <Route path="/vite-react/" element={<Homepage />} />
           <Route path="aboutme" element={<Aboutme />} />
           <Route path="skills" element={<Skills />} />
-          <Route path="experience" element={<Experience />} />
+          <Route path="projekt" element={<Experience />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
         <Footer />
