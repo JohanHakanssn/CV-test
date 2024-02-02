@@ -15,7 +15,7 @@ Länkar till min Github där jag har mina projekt
 --Kontakta mig--
 Kontaktinformation till mig.
 
-För att köra programemte installera vite.js och skriv sen in "npm run dev" i konsolen.
+För att köra programmet installera vite.js och skriv sen in "npm run dev" i konsolen.
 
 # React + Vite
 
