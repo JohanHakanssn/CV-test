@@ -4,7 +4,6 @@
 /*För att få alla element att ha border-box*/
 *::before *::backdrop {
   box-sizing: border-box;
-  /*Använd nästan alltid*/
 }
 
 * {
@@ -17,10 +16,9 @@
 body {
   font-family: "Bebas", sans-serif;
   height: 100vh;
-  /* background-image: url("https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg"); */
   background-size: cover;
   background-position: bottom;
-  overflow: hidden; /* Hide scrollbars */
+  overflow: hidden;
 }
 
 h1 {

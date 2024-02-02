@@ -1,12 +1,12 @@
 import { useState } from "react";
 import styles from "../components.css/Contact.module.css";
 
+//Modal fönster
 function Contact() {
   const [isModalHidden, setIsModalHidden] = useState(true);
 
-  // Ändrar på isModalHidden till det motsatta värdet.
   const toggleModal = () => {
-    setIsModalHidden(!isModalHidden);
+    setIsModalHidden(!isModalHidden); // Ändrar på isModalHidden till det motsatta värdet.
   };
 
   return (
